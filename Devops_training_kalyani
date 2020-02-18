@@ -1,0 +1,78 @@
+Date : 14/02/2020
+Install git on your local pc - Done
+how to setup github account? - Done - Admin
+how to configure the end setup in local pc. 
+git config --list
+git config --global user.name "kalyani"
+git config --global user.email "kalyani@gmail.com"
+
+Git commands Basic 
+git --version
+git status
+git clone url
+git add filename
+git commit -m "msg in sentence"
+git push
+git pull
+
+Git Commands - Advanced
+git log
+git branch // list all the branches
+git branch branch1 //create branch1 
+git checkout branch1 // switch to new branch
+git branch -d branch1 //delete the branch1
+
+
+Date - 18/02/2020
+
+Sync issues in git
+init
+migration from one account to another account
+git revert and reset 
+
+
+Remote - github - Server
+local - git installed machine (git-scm) - Client, more than one client
+10 
+
+repository - Server
+
+Developer1
+1. created homepage
+2. Add the homepage - git add homepage
+3. commit the homepage - git commit -m "homepage created"
+4. push the content - git push
+Now server homepage
+
+Developer 2
+Consider same time one more developer
+1. Created contact page
+2. Add the contact page, commit and push the page
+
+Developer 1
+git pull - used by first developer
+Now developer had homepage and contact page
+
+Developer 2 
+Modifiying homepage - "Developer2 content"
+git add homepage - after modify
+git commit -m "modified the homepage"
+git push the content first
+now server was updated with latest code of developer2
+
+Developer 1
+Modifiying homepage - "Developer1 content"
+git add homepage - after modify
+git commit -m "modified the homepage"
+git push 
+now server was rejecting code of developer1
+
+git pull
+after home page - manual fix the conflicts
+git add, commit and push.
+
+
+
+
+
+
