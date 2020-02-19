@@ -27,8 +27,7 @@ Date - 18/02/2020
 
 Sync issues in git
 init
-migration from one account to another account
-git revert and reset 
+
 
 
 Remote - github - Server
@@ -71,6 +70,27 @@ git pull
 after home page - manual fix the conflicts
 git add, commit and push.
 
+19/02/2020
+
+git fetch
+git merge
+
+git remote
+git remote get-url origin
+git log
+
+
+git init
+git remote // nothing
+git remote add origin url
+git push origin master
+git revert and reset 
+
+git pull = git fetch + git merge
+git fetch
+git merge
+
+git clone https://github.com/ghanitutorsbot/maven_demo.git
 
 
 
